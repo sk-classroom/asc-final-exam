@@ -1,6 +1,6 @@
 1. What is the primary function of the perceptron as introduced by Frank Rosenblatt?
    - [ ] A) To serve as a basic unit of memory storage
-   - [ ] B) To automatically learn weight coefficients for decision-aking
+   - [ ] B) To automatically learn weight coefficients for decision-making
    - [ ] C) To act as a digital calculator for complex equations
    - [ ] D) To simulate the human brain's emotional responses
    >Answer: B) To automatically learn weight coefficients for decision-aking
@@ -8,7 +8,7 @@
 2. Which of the following best describes the learning mechanism of a perceptron?
    - [ ] A) It uses a fixed set of weights for all inputs
    - [ ] B) It adjusts its weights based on the prediction error
-   - [ ] C) It relies on pre-efined thresholds for all decisions
+   - [ ] C) It relies on pre-defined thresholds for all decisions
    - [ ] D) It does not require any form of training or learning
    >Answer: B) It adjusts its weights based on the prediction error
 
@@ -20,7 +20,7 @@
    >Answer: B) To determine the output signal based on the weighted sum of inputs
 
 4. In the context of perceptron learning, what does the term "linear separability" refer to?
-   - [ ] A) The ability to separate data points using a non-inear boundary
+   - [ ] A) The ability to separate data points using a non-linear boundary
    - [ ] B) The requirement that data points must be distributed in a linear fashion
    - [ ] C) The possibility of drawing a straight line or hyperplane to separate two classes without misclassifications
    - [ ] D) The linear relationship between the perceptron's weights and its inputs
@@ -29,8 +29,8 @@
 5. Which of the following statements accurately describes the difference between the perceptron and Adaline models?
    - [ ] A) The perceptron model uses a linear activation function, while Adaline uses a step function
    - [ ] B) Adaline uses the concept of loss/objective functions, which is not present in the perceptron model
-   - [ ] C) The perceptron can solve problems of non-inear separability, whereas Adaline cannot
-   - [ ] D) Adaline is a multi-ayer neural network, while the perceptron is a single-ayer neural network
+   - [ ] C) The perceptron can solve problems of non-linear separability, whereas Adaline cannot
+   - [ ] D) Adaline is a multi-layer neural network, while the perceptron is a single-layer neural network
    >Answer: B) Adaline uses the concept of loss/objective functions, which is not present in the perceptron model
 
 6. What is the primary purpose of using logistic regression in machine learning?
@@ -42,16 +42,16 @@
 
 7. Which of the following best describes the logistic function used in logistic regression?
    - [ ] A) It is a linear function that predicts the probability of occurrence of an event
-   - [ ] B) It is a non-inear function that models the probability of output in terms of input features
+   - [ ] B) It is a nonl-inear function that models the probability of output in terms of input features
    - [ ] C) It is a quadratic function used for classification problems
    - [ ] D) It is an exponential function that reduces the complexity of the model
-   >Answer: B) It is a non-inear function that models the probability of output in terms of input features
+   >Answer: B) It is a non-linear function that models the probability of output in terms of input features
 
 8. In the context of logistic regression, what does L2 regularization aim to prevent?
    - [ ] A) Underfitting of the model
    - [ ] B) Overfitting of the model
    - [ ] C) Linear separability of the data
-   - [ ] D) Non-inear relationships between variables
+   - [ ] D) Non-linear relationships between variables
    >Answer: B) Overfitting of the model
 
 9. How does the logistic regression model use the sigmoid function?
@@ -87,23 +87,23 @@
    - [ ] B) A matrix indicating the direction of maximum data variation
    - [ ] C) A matrix that operationalizes the maximization of between-class variations
    - [ ] D) The covariance matrix of data in a given class
-   >Answer: C) A matrix that operationalizes the maximization of between-lass variations
+   >Answer: C) A matrix that operationalizes the maximization of between-class variations
 
 14. Which dimensionality reduction technique is particularly effective for preserving the global structure of the data?
-   - [ ] A) t-istributed Stochastic Neighbor Embedding (t-NE)
+   - [ ] A) t-distributed Stochastic Neighbor Embedding (t-SNE)
    - [ ] B) Uniform Manifold Approximation and Projection (UMAP)
    - [ ] C) Multidimensional Scaling (MDS)
    - [ ] D) Isomap
    >Answer: C) Multidimensional Scaling (MDS)
 
-15. What is the main difference between t-NE and UMAP?
-   - [ ] A) t-NE is a linear dimensionality reduction technique, while UMAP is non-inear
-   - [ ] B) UMAP is designed to preserve only local structure, while t-NE preserves both local and global structures
-   - [ ] C) t-NE minimizes the Kullback-eibler divergence between two probability distributions, while UMAP optimizes a cost function balancing local and global structure
-   - [ ] D) UMAP constructs a high-imensional graph representation of the data, while t-NE does not
-   >Answer: C) t-NE minimizes the Kullback-eibler divergence between two probability distributions, while UMAP optimizes a cost function balancing local and global structure
+15. What is the main difference between t-SNE and UMAP?
+   - [ ] A) t-SNE is a linear dimensionality reduction technique, while UMAP is non-linear
+   - [ ] B) UMAP is designed to preserve only local structure, while t-SNE preserves both local and global structures
+   - [ ] C) t-SNE minimizes the Kullback-Leibler divergence between two probability distributions, while UMAP optimizes a cost function balancing local and global structure
+   - [ ] D) UMAP constructs a high-imensional graph representation of the data, while t-SNE does not
+   >Answer: C) t-SNE minimizes the Kullback-Leibler divergence between two probability distributions, while UMAP optimizes a cost function balancing local and global structure
 
-16. What is the primary purpose of using cross-alidation in model evaluation?
+16. What is the primary purpose of using cross-validation in model evaluation?
    - [ ] A) To increase the speed of the training process
    - [ ] B) To estimate model performance on unseen data
    - [ ] C) To reduce the need for external validation datasets
@@ -124,7 +124,7 @@
    - [ ] D) The model has a simple architecture
    >Answer: C) Positive cases are not missed
 
-19. What is the significance of the F1-core in model evaluation?
+19. What is the significance of the F1-score in model evaluation?
    - [ ] A) It measures the model's accuracy only
    - [ ] B) It provides a balanced measure of precision and recall
    - [ ] C) It indicates the model's speed of prediction
@@ -152,7 +152,7 @@
    - [ ] D) The reduction of the model's accuracy due to insufficient training data
    >Answer: B) The problem of gradients becoming smaller as they are propagated back through the network, making it hard to learn long-erm dependencies
 
-23. Which of the following is NOT a component of Long Short-erm Memory (LSTM) networks?
+23. Which of the following is NOT a component of Long Short-Term Memory (LSTM) networks?
    - [ ] A) Cell state
    - [ ] B) Gates
    - [ ] C) Activation functions
@@ -191,10 +191,10 @@
    - [ ] A) It outputs values in a range of 0 to 1
    - [ ] B) It helps in faster convergence of the model
    - [ ] C) It prevents the model from overfitting
-   - [ ] D) It supports multi-lass classification tasks
+   - [ ] D) It supports multi-class classification tasks
    >Answer: B) It helps in faster convergence of the model
 
-29. In the context of neural networks, what does the term "back-ropagation" refer to?
+29. In the context of neural networks, what does the term "back-propagation" refer to?
    - [ ] A) The process of updating the model's parameters based on the output of the loss function
    - [ ] B) The calculation of the output of the neural network for a given input
    - [ ] C) The method of initializing the weights of the neural network
@@ -212,7 +212,7 @@
    - [ ] A) The use of recurrent neural networks (RNNs) to process sequences
    - [ ] B) The introduction of convolutional neural networks (CNNs) for text processing
    - [ ] C) The elimination of RNNs in favor of the attention mechanism
-   - [ ] D) The use of pre-rained embeddings for all tokens
+   - [ ] D) The use of pre-trained embeddings for all tokens
    >Answer: C) The elimination of RNNs in favor of the attention mechanism
 
 32. How does the attention mechanism in Transformers differ from previous attention mechanisms?
@@ -226,7 +226,7 @@
    - [ ] A) Token embeddings, Segment embeddings, and Position embeddings
    - [ ] B) Word embeddings, Sentence embeddings, and Document embeddings
    - [ ] C) Character embeddings, Word embeddings, and Paragraph embeddings
-   - [ ] D) N-ram embeddings, Skip-ram embeddings, and Continuous bag of words embeddings
+   - [ ] D) N-gram embeddings, Skip-gram embeddings, and Continuous bag of words embeddings
    >Answer: A) Token embeddings, Segment embeddings, and Position embeddings
 
 34. What is a significant advantage of BERT over traditional language models?
@@ -302,9 +302,9 @@
 44. Which of the following best describes the role of teacher forcing in training a Seq2Seq model?
    - [ ] A) It is a strategy to speed up the training process by using a fixed learning rate
    - [ ] B) It involves using the model's predictions as inputs during training to improve accuracy
-   - [ ] C) It involves using the ground-ruth target tokens as inputs during training to facilitate learning convergence
+   - [ ] C) It involves using the ground-truth target tokens as inputs during training to facilitate learning convergence
    - [ ] D) It is a regularization technique to prevent overfitting by randomly dropping out tokens
-   >Answer: C) It involves using the ground-ruth target tokens as inputs during training to facilitate learning convergence
+   >Answer: C) It involves using the ground-truth target tokens as inputs during training to facilitate learning convergence
 
 45. A data scientist is working on a sentiment analysis model using a Seq2Seq architecture. The model is intended to classify sentences into positive or negative sentiments. However, during testing, it was observed that the model performs well on sentences seen during training but fails to generalize to new, unseen sentences. Which of the following modifications could potentially improve the model's ability to generalize?
    - [ ] A) Increase the size of the training dataset to include a more diverse set of sentences
@@ -329,13 +329,13 @@
 
 50. A data scientist notices that a logistic regression model used for email spam classification is classifying almost all emails as non-pam, missing a significant number of spam emails. What could be a potential solution to improve the model's detection of spam emails?
    - [ ] A) Increasing the regularization strength to reduce overfitting
-   - [ ] B) Balancing the dataset to have an equal number of spam and non-pam emails
+   - [ ] B) Balancing the dataset to have an equal number of spam and non-spam emails
    - [ ] C) Switching to a more complex model like a neural network
    - [ ] D) Reducing the dimensionality of the feature space
-   >Answer: B) Balancing the dataset to have an equal number of spam and non-pam emails
+   >Answer: B) Balancing the dataset to have an equal number of spam and non-spam emails
 
 51. A researcher is attempting to replicate a machine learning experiment detailed in a recently published paper. Despite following the instructions provided in the paper, the researcher is unable to achieve the reported results. Which of the following practices, if not followed, could be the most likely reason for the discrepancy?
-   - [ ] A) The original experiment did not use cross-alidation
+   - [ ] A) The original experiment did not use cross-validation
    - [ ] B) The original experiment's data and code were not made available
    - [ ] C) The original experiment did not document the preprocessing steps
    - [ ] D) The original experiment used a different evaluation metric
@@ -349,13 +349,13 @@
    >Answer: B) Replicability is about using the same code and data to achieve the same results, while reproducibility is about achieving similar results with different setups
 
 53. A team of data scientists is working on a machine learning project and wants to ensure that their workflow is efficient and reproducible. Which of the following tools would be most beneficial for them to use?
-   - [ ] A) A high-erformance computing cluster
+   - [ ] A) A high-performance computing cluster
    - [ ] B) A version control system like Git
    - [ ] C) A workflow management tool
    - [ ] D) A cloud storage service
    >Answer: C) A workflow management tool like Snakemake
 
-55. A researcher is planning to use cross-alidation to estimate the performance of a machine learning model. Which of the following best describes the main advantage of using cross-alidation?
+55. A researcher is planning to use cross-validation to estimate the performance of a machine learning model. Which of the following best describes the main advantage of using cross-validation?
    - [ ] A) It allows the model to be trained on a larger dataset
    - [ ] B) It provides a more reliable estimate of the model's performance on unseen data
    - [ ] C) It significantly reduces the time required to train the model
@@ -373,7 +373,7 @@
    - [ ] A) Increasing the number of features in the dataset
    - [ ] B) Standardizing the feature matrix
    - [ ] C) Decreasing the number of iterations
-   - [ ] D) Switching to a non-inear activation function
+   - [ ] D) Switching to a non-linear activation function
    >Answer: B) Standardizing the feature matrix
 
 58. A user is training an Adaline model and wants to visualize the training error as a function of iterations. Which of the following approaches would be most effective for achieving this?
@@ -384,11 +384,11 @@
    >Answer: B) Plotting the sum of squared errors at each iteration
 
 59. A user is concerned about the scale of input variables affecting the performance of an Adaline model. Which technique is recommended to address this issue before training the model?
-   - [ ] A) Normalizing the input variables using min-ax scaling
+   - [ ] A) Normalizing the input variables using min-max scaling
    - [ ] B) Standardizing the input variables using Z-core normalization
    - [ ] C) Performing principal component analysis (PCA) on the input variables
-   - [ ] D) Applying a non-inear transformation to the input variables
-   >Answer: B) Standardizing the input variables using Z-core normalization
+   - [ ] D) Applying a non-linear transformation to the input variables
+   >Answer: B) Standardizing the input variables using Z-score normalization
 
 60. When implementing the Adaline algorithm, a user encounters a problem where the model fails to converge. Which of the following modifications could help the model to converge?
    - [ ] A) Increasing the batch size for each iteration
@@ -397,11 +397,11 @@
    - [ ] D) Using a different optimization algorithm
    >Answer: B) Adjusting the learning rate based on the scale of the data
 
-58. A user is working on a high-imensional dataset for a classification task but is facing challenges with model performance and interpretability. Which dimensionality reduction technique could potentially improve both performance and interpretability of the model?
+58. A user is working on a high-dimensional dataset for a classification task but is facing challenges with model performance and interpretability. Which dimensionality reduction technique could potentially improve both performance and interpretability of the model?
    - [ ] A) Increasing the number of features to capture more variability
    - [ ] B) Applying Principal Component Analysis (PCA) to reduce the number of features while preserving variance
    - [ ] C) Using a larger dataset to ensure the model captures all possible variations
-   - [ ] D) Implementing a more complex model to handle high-imensional data
+   - [ ] D) Implementing a more complex model to handle high-dimensional data
    >Answer: B) Applying Principal Component Analysis (PCA) to reduce the number of features while preserving variance
 
 59. In the context of dimensionality reduction, what is the primary advantage of using Linear Discriminant Analysis (LDA) over Principal Component Analysis (PCA) for a supervised learning task?
@@ -411,8 +411,8 @@
    - [ ] D) PCA can be applied to both supervised and unsupervised learning tasks, making it more versatile
    >Answer: C) LDA aims to maximize the separability among known categories, which can improve classification performance
 
-60. A researcher is considering using t-istributed Stochastic Neighbor Embedding (t-NE) for visualizing a high-imensional dataset. What is a key characteristic of t-NE that makes it suitable for this task?
-   - [ ] A) It preserves global structures and distances between data points in a high-imensional space
+60. A researcher is considering using t-distributed Stochastic Neighbor Embedding (t-SNE) for visualizing a high-dimensional dataset. What is a key characteristic of t-SNE that makes it suitable for this task?
+   - [ ] A) It preserves global structures and distances between data points in a high-dimensional space
    - [ ] B) It is particularly effective in preserving local structures and relationships between data points
    - [ ] C) It increases the dimensionality of data to make patterns more discernible
    - [ ] D) It applies linear transformations to maintain the distances between all pairs of points
@@ -422,7 +422,7 @@
    - [ ] A) MDS is primarily used for supervised learning tasks, while UMAP is used for unsupervised learning tasks
    - [ ] B) MDS focuses on preserving global distances between data points, whereas UMAP balances the preservation of local and global data structures
    - [ ] C) UMAP is less computationally intensive than MDS and can be applied to larger datasets
-   - [ ] D) MDS can capture non-inear structures in the data, making it more versatile than UMAP
+   - [ ] D) MDS can capture non-linear structures in the data, making it more versatile than UMAP
    >Answer: B) MDS focuses on preserving global distances between data points, whereas UMAP balances the preservation of local and global data structures
 
 
@@ -441,11 +441,11 @@
    >Answer: B) Applying negative sampling
 
 62. A user is interested in improving the accuracy of a word2vec model for a specific domain. Which of the following strategies would be most effective?
-   - [ ] A) Using a pre-rained model from a different domain
-   - [ ] B) Incorporating domain-pecific texts into the training corpus
+   - [ ] A) Using a pre-trained model from a different domain
+   - [ ] B) Incorporating domain-specific texts into the training corpus
    - [ ] C) Decreasing the window size for context words
    - [ ] D) Increasing the number of hidden layers in the model
-   >Answer: B) Incorporating domain-pecific texts into the training corpus
+   >Answer: B) Incorporating domain-specific texts into the training corpus
 
 63. When evaluating a word2vec model, a user notices that the vectors for antonyms are closer than expected. What could be a reason for this observation?
    - [ ] A) The model was trained with a very small corpus
@@ -458,7 +458,7 @@
    - [ ] A) Creating a histogram of word frequencies
    - [ ] B) Using Principal Component Analysis (PCA) to reduce dimensionality
    - [ ] C) Plotting the sum of squared errors for each word vector
-   - [ ] D) Applying a high-ass filter to the word vectors
+   - [ ] D) Applying a high-pass filter to the word vectors
    >Answer: B) Using Principal Component Analysis (PCA) to reduce dimensionality
 
 
@@ -485,14 +485,14 @@
 
 65. In the context of a Seq2Seq model for speech recognition, a user notices that the model struggles with recognizing rare words. Which of the following strategies could potentially improve the model's ability to recognize rare words?
    - [ ] A) Decreasing the dropout rate in both the Encoder and Decoder
-   - [ ] B) Incorporating a character-evel Seq2Seq model to complement the word-evel model
+   - [ ] B) Incorporating a character-level Seq2Seq model to complement the word-level model
    - [ ] C) Using a smaller vocabulary size to reduce the model's complexity
    - [ ] D) Implementing a higher learning rate for the Decoder
-   >Answer: B) Incorporating a character-evel Seq2Seq model to complement the word-evel model
+   >Answer: B) Incorporating a character-level Seq2Seq model to complement the word-level model
 
-66. A user is fine-uning a pre-rained Seq2Seq model for a custom chatbot application but finds that the model's responses are often generic and lack specificity. What could be a potential solution to generate more specific and relevant responses?
+66. A user is fine-tuning a pre-trained Seq2Seq model for a custom chatbot application but finds that the model's responses are often generic and lack specificity. What could be a potential solution to generate more specific and relevant responses?
    - [ ] A) Training the model with a larger batch size
-   - [ ] B) Pre-raining the model on a larger corpus of chatbot conversations
+   - [ ] B) Pre-training the model on a larger corpus of chatbot conversations
    - [ ] C) Implementing a conditional encoding mechanism to provide context
    - [ ] D) Reducing the sequence length of the input data
    >Answer: C) Implementing a conditional encoding mechanism to provide context
@@ -504,14 +504,14 @@
    - [ ] D) Using a simpler model architecture like LSTM
    >Answer: C) Applying dropout in the transformer layers
 
-68. During the fine-uning of a pre-rained BERT model for sentiment analysis, a user observes that the model performs well on the training data but poorly on the validation data. What could be a potential reason for this discrepancy?
+68. During the fine-tuning of a pre-trained BERT model for sentiment analysis, a user observes that the model performs well on the training data but poorly on the validation data. What could be a potential reason for this discrepancy?
    - [ ] A) The learning rate is too high
-   - [ ] B) The model is not pre-rained sufficiently
+   - [ ] B) The model is not pre-trained sufficiently
    - [ ] C) The batch size used for training is too small
    - [ ] D) The model is overfitting to the training data
    >Answer: D) The model is overfitting to the training data
 
-69. A user wants to improve the inference speed of a BERT-ased model deployed in a production environment. Which of the following techniques could help achieve this goal?
+69. A user wants to improve the inference speed of a BERT-based model deployed in a production environment. Which of the following techniques could help achieve this goal?
    - [ ] A) Implementing quantization to reduce the model size
    - [ ] B) Increasing the batch size during inference
    - [ ] C) Using a deeper BERT model for better performance
@@ -525,12 +525,12 @@
    - [ ] D) Increasing the dropout rate in the transformer layers
    >Answer: B) Implementing a sliding window approach to handle longer sequences
 
-71. A user is utilizing BERT for a question-nswering system but notices that the model often provides answers that are not contextually relevant. What could be a potential solution to improve the contextual relevance of the answers?
-   - [ ] A) Pre-raining the BERT model on a larger corpus of question-nswer pairs
+71. A user is utilizing BERT for a question-answering system but notices that the model often provides answers that are not contextually relevant. What could be a potential solution to improve the contextual relevance of the answers?
+   - [ ] A) Pre-raining the BERT model on a larger corpus of question-answer pairs
    - [ ] B) Decreasing the number of attention heads in the transformer layers
-   - [ ] C) Implementing a higher learning rate for the fine-uning process
+   - [ ] C) Implementing a higher learning rate for the fine-tuning process
    - [ ] D) Incorporating an external knowledge base to supplement the model's predictions
-   >Answer: A) Pre-raining the BERT model on a larger corpus of question-nswer pairs
+   >Answer: A) Pre-training the BERT model on a larger corpus of question-answer pairs
 
 
 70. In the context of using RNNs for text generation, a user finds that the generated text often contains repetitive phrases. Which of the following adjustments could potentially improve the model's performance in generating more diverse text?
@@ -610,8 +610,8 @@
    - [ ] D) There is nothing incorrect about this statement
    >Answer: C) The implication that the outcome predicted is a numerical value
 
-81. Consider the following description of the Seq2Seq model: "The Seq2Seq model is primarily designed for tasks that involve generating fixed-ength output sequences from fixed-ength input sequences. It uses a complex network of convolutional neural networks (CNNs) to process the sequence of words and employs a softmax function to assign each word in the output sequence a probability." Which part of this description is incorrect?
-   - [ ] A) The primary purpose of Seq2Seq is to generate fixed-ength output sequences from fixed-ength input sequences
+81. Consider the following description of the Seq2Seq model: "The Seq2Seq model is primarily designed for tasks that involve generating fixed-length output sequences from fixed-length input sequences. It uses a complex network of convolutional neural networks (CNNs) to process the sequence of words and employs a softmax function to assign each word in the output sequence a probability." Which part of this description is incorrect?
+   - [ ] A) The primary purpose of Seq2Seq is to generate fixed-length output sequences from fixed-length input sequences
    - [ ] B) The use of convolutional neural networks (CNNs) in the Seq2Seq model
    - [ ] C) The employment of a softmax function to assign probabilities to each word in the output sequence
    - [ ] D) The focus on processing sequences of words
@@ -627,9 +627,9 @@
 83. The description also states that the Seq2Seq model "employs a softmax function to assign each word in the output sequence a probability." Given the true purpose and mechanism of Seq2Seq, what is incorrect about this statement?
    - [ ] A) The use of a softmax function in Seq2Seq
    - [ ] B) The assignment of probabilities to each word in the output sequence as the primary function
-   - [ ] C) The implication that Seq2Seq's output is a fixed-ength sequence
+   - [ ] C) The implication that Seq2Seq's output is a fixed-length sequence
    - [ ] D) There is nothing incorrect about this statement
-   >Answer: C) The implication that Seq2Seq's output is a fixed-ength sequence
+   >Answer: C) The implication that Seq2Seq's output is a fixed-length sequence
 
 84. Consider the following description of the BERT model: "BERT is designed to improve the understanding of the meaning of individual words in sentences, without taking into account the context provided by the surrounding words. It achieves this by focusing on the position of a word within a sentence." Identify the incorrect element in this statement.
    - [ ] A) The claim that BERT focuses on individual words without context
